@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "app-ui",
-    "slug": "app-ui",
+    "name": "Weather",
+    "slug": "weather-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.weather.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a1dc2e55-74f8-4c7b-b7a6-6ca70a3dccfe"
+      }
     }
   }
 }
